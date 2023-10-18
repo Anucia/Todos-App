@@ -1,0 +1,110 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fbfe;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.create-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f1f1f1;
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.create-task-heading {
+  color: #00306e;
+  font-family: "open sans";
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.input-box {
+  background-color: white;
+  width: 50%;
+  color: #0f0f0f;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.add-button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 10px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.todo-with-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f4f4f4;
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.filter-style {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9796f0;
+}
+
+.filter-empty {
+  color: #9796f0;
+  background-color: white;
+  border: 1px solid #9796f0;
+}
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}

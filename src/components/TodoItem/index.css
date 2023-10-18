@@ -1,0 +1,65 @@
+.todo-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.check-button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f6ff;
+  width: 100%;
+  max-width: 1100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.title {
+  margin-left: 10px;
+  color: #313131;
+  font-size: 18px;
+}
+.line-through-title {
+  text-decoration: line-through;
+  color: rgb(196, 93, 93);
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.line-through-title {
+  text-decoration: line-through;
+}
